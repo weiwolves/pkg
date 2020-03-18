@@ -19,8 +19,8 @@ package config_test
 // for CoreStore but are here to use for testing and benchmarking.
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 var packageAllConfiguration = config.MustMakeSectionsMerged(

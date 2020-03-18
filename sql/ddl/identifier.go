@@ -23,7 +23,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/corestoreio/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dml"
 )
 
 func mapAlNum(r rune) rune {

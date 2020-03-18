@@ -17,8 +17,8 @@ package jwtclaim
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/csjwt"
 )
 
 func TestKeys(t *testing.T) {

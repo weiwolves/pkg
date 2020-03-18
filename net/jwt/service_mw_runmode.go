@@ -20,10 +20,10 @@ import (
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	loghttp "github.com/corestoreio/log/http"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/conv"
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/csjwt"
 )
 
 // SetHeaderAuthorization convenience function to set the Authorization Bearer

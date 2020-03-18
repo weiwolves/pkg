@@ -28,10 +28,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/bufferpool"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dml"
 )
 
 const (

@@ -14,7 +14,7 @@
 
 package geoip
 
-import "github.com/corestoreio/pkg/store/scope"
+import "github.com/weiwolves/pkg/store/scope"
 
 // StoreFinder see store.Finder for a description. Usage of this interface in
 // WithRunMode() middleware.

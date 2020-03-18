@@ -3,7 +3,7 @@ package pseudo
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 func BenchmarkFakerDataNOTTagged(b *testing.B) {

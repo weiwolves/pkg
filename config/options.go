@@ -20,8 +20,8 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // EnvNamePlaceHolder replaces in a file name or pattern argument applied to a

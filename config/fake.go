@@ -19,7 +19,7 @@ import (
 	"sync"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // FakeWrite used for testing when writing configuration values.

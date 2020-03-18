@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestKeyRelationShips(t *testing.T) {

@@ -5,9 +5,9 @@ package null_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 	"github.com/mailru/easyjson"
 	"github.com/mailru/easyjson/jlexer"
 	"github.com/mailru/easyjson/jwriter"

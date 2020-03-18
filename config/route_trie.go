@@ -40,8 +40,8 @@ import (
 	"strings"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // Event constants defines where and when a specific blocking event gets

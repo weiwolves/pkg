@@ -18,8 +18,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 var twinBuf = bufferpool.NewTwin(4096)

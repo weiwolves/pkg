@@ -20,9 +20,9 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/net/csgrpc"
-	grpc_auth "github.com/corestoreio/pkg/net/csgrpc/auth"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/csgrpc"
+	grpc_auth "github.com/weiwolves/pkg/net/csgrpc/auth"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestNewService(t *testing.T) {

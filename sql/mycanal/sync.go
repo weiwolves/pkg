@@ -7,8 +7,8 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/myreplicator"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/myreplicator"
 )
 
 // Action constants to figure out the type of an event. Those constants will be

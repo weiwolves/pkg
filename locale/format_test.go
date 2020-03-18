@@ -16,8 +16,8 @@ package locale_test
 
 import "testing"
 import (
-	"github.com/corestoreio/pkg/locale"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/locale"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestExtractNumber(t *testing.T) {

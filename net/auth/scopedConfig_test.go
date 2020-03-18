@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/net/auth"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/hashpool"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/auth"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/hashpool"
+	"github.com/weiwolves/pkg/util/assert"
 	"github.com/stretchr/testify/require"
 )
 

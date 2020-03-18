@@ -21,7 +21,7 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 //go:generate go run codegen_main.go

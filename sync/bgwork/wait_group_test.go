@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/corestoreio/pkg/sync/bgwork"
+	"github.com/weiwolves/pkg/sync/bgwork"
 )
 
 func TestWait(t *testing.T) {

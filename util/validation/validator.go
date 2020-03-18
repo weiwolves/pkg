@@ -50,7 +50,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/conv"
 )
 
 var (

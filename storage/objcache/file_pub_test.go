@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/storage/objcache"
+	"github.com/weiwolves/pkg/storage/objcache"
 )
 
 func TestNewFileSystemClient_Delete(t *testing.T) {

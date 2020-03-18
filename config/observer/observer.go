@@ -17,7 +17,7 @@ package observer
 import (
 	"sync"
 
-	"github.com/corestoreio/pkg/config"
+	"github.com/weiwolves/pkg/config"
 )
 
 // FactoryFunc allows to implement a custom observer which gets created based on

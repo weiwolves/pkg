@@ -9,7 +9,7 @@ package naughtystrings
 import (
 	"encoding/json"
 
-	"github.com/corestoreio/pkg/util/naughtystrings/internal"
+	"github.com/weiwolves/pkg/util/naughtystrings/internal"
 )
 
 var base64encoded, unencoded []string

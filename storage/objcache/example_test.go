@@ -23,7 +23,7 @@ import (
 	"log"
 
 	"github.com/allegro/bigcache"
-	"github.com/corestoreio/pkg/storage/objcache"
+	"github.com/weiwolves/pkg/storage/objcache"
 )
 
 type P struct {

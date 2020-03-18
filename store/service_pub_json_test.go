@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	storemock "github.com/corestoreio/pkg/store/mock"
-	"github.com/corestoreio/pkg/util/assert"
+	storemock "github.com/weiwolves/pkg/store/mock"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestService_Sorting_JSON(t *testing.T) {

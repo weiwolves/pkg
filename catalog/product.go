@@ -15,8 +15,8 @@
 package catalog
 
 import (
-	"github.com/corestoreio/pkg/eav"
-	"github.com/corestoreio/pkg/storage/csdb"
+	"github.com/weiwolves/pkg/eav"
+	"github.com/weiwolves/pkg/storage/csdb"
 )
 
 type (

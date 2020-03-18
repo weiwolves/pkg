@@ -15,8 +15,8 @@
 package dml_test
 
 import (
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 var cmCustomers = &customerCollection{

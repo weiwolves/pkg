@@ -5,7 +5,7 @@ package urlvalues
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestProtoToValues(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 // TypeDef used in variable `mysqlTypeToGo` to map a MySQL/MariaDB type to its

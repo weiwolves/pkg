@@ -19,10 +19,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/corestoreio/pkg/net"
-	"github.com/corestoreio/pkg/net/signed"
+	"github.com/weiwolves/pkg/net"
+	"github.com/weiwolves/pkg/net/signed"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ signed.HeaderParseWriter = (*signed.ContentSignature)(nil)

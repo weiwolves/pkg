@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // Hash64Mock allows to use a hash.Hash as an argument to the Hash64 Tank.

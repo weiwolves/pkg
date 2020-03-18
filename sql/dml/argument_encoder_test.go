@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestArgBytes(t *testing.T) {

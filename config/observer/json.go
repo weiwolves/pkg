@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
+	"github.com/weiwolves/pkg/config"
 )
 
 func init() {

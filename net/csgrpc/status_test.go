@@ -17,8 +17,8 @@ package csgrpc_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/net/csgrpc"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/csgrpc"
+	"github.com/weiwolves/pkg/util/assert"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

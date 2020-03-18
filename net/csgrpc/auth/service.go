@@ -25,16 +25,16 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/net/csgrpc"
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+	"github.com/weiwolves/pkg/net/csgrpc"
+	"github.com/weiwolves/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt/jwtclaim"
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	// "github.com/corestoreio/pkg/store/scope"
+	// "github.com/weiwolves/pkg/store/scope"
 	"google.golang.org/grpc/status"
 )
 

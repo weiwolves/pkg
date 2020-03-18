@@ -26,9 +26,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/bufferpool"
-	"github.com/corestoreio/pkg/util/byteconv"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/byteconv"
 	"github.com/minio/highwayhash"
 )
 

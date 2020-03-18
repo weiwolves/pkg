@@ -10,7 +10,7 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 	"github.com/siddontang/go-mysql/mysql"
 )
 

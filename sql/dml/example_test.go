@@ -23,8 +23,8 @@ import (
 
 	"github.com/fatih/color"
 
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 func writeToSQL(qb dml.QueryBuilder) {

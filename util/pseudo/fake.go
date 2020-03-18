@@ -38,7 +38,7 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/conv"
 	"github.com/oklog/ulid"
 	"golang.org/x/exp/rand"
 )

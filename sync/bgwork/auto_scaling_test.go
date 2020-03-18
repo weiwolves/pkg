@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/sync/bgwork"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sync/bgwork"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestRun(t *testing.T) {

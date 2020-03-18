@@ -24,7 +24,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 // https://www.adampalmer.me/iodigitalsec/2013/08/18/mysql_real_escape_string-wont-magically-solve-your-sql-injection-problems/

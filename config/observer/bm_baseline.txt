@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/corestoreio/pkg/config/validation
+pkg: github.com/weiwolves/pkg/config/validation
 BenchmarkMinMaxInt64/partial-4  	50000000	        30.5 ns/op	       0 B/op	       0 allocs/op
 BenchmarkMinMaxInt64/partial-4  	50000000	        30.9 ns/op	       0 B/op	       0 allocs/op
 BenchmarkMinMaxInt64/partial-4  	50000000	        30.9 ns/op	       0 B/op	       0 allocs/op
@@ -27,4 +27,4 @@ BenchmarkStrings_Simple/notempty,bool-4                                         
 BenchmarkStrings_Simple/notempty,bool-4                                         	20000000	        58.2 ns/op	       1 B/op	       1 allocs/op
 BenchmarkStrings_Simple/notempty,bool-4                                         	30000000	        58.2 ns/op	       1 B/op	       1 allocs/op
 PASS
-ok  	github.com/corestoreio/pkg/config/validation	41.422s
+ok  	github.com/weiwolves/pkg/config/validation	41.422s

@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 // Store represents a single row for DB table store. Auto generated.

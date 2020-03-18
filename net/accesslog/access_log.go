@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/net/request"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/net/request"
 	"github.com/corestoreio/log"
 	"github.com/rs/xstats"
 	"github.com/zenazn/goji/web/mutil"

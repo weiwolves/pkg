@@ -97,7 +97,7 @@ func (s AbstractServer) RecordError(ctx context.Context) {
 
 // AuthFuncOverride calls the custom authentication function provided by
 // ServerRPCOptions. AuthFuncOverride gets called by the middleware of package
-// "github.com/corestoreio/pkg/net/csgrpc/auth". When implementing, make
+// "github.com/weiwolves/pkg/net/csgrpc/auth". When implementing, make
 // sure that `grpc_auth.UnaryServerInterceptor(nil)` has the nil argument.
 func (s AbstractServer) AuthFuncOverride(ctx context.Context, fullMethodName string) (context.Context, error) {
 	if s.auth == nil {

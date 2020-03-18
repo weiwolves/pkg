@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/corestoreio/pkg/storage/lru"
+	"github.com/weiwolves/pkg/storage/lru"
 )
 
 // LRUOptions allows to track the cache items either by object count or total

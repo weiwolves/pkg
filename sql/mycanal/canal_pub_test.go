@@ -25,9 +25,9 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/sql/mycanal"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/sql/mycanal"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestCanal_Option_With_DB_Error(t *testing.T) {

@@ -18,11 +18,11 @@ package main
 //	"runtime"
 //	"sync"
 //
-//	"github.com/corestoreio/pkg/codegen"
-//	"github.com/corestoreio/pkg/eav"
-//	"github.com/corestoreio/pkg/storage/csdb"
-//	"github.com/corestoreio/pkg/storage/dbr"
-//	"github.com/corestoreio/pkg/util/cstesting"
+//	"github.com/weiwolves/pkg/codegen"
+//	"github.com/weiwolves/pkg/eav"
+//	"github.com/weiwolves/pkg/storage/csdb"
+//	"github.com/weiwolves/pkg/storage/dbr"
+//	"github.com/weiwolves/pkg/util/cstesting"
 //	"github.com/corestoreio/errors"
 //)
 //

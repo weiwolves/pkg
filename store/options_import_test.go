@@ -20,8 +20,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/store"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestWithLoadFromYAML(t *testing.T) {

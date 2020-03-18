@@ -21,11 +21,11 @@ import (
 	"testing"
 	"text/template"
 
-	csnet "github.com/corestoreio/pkg/net"
-	"github.com/corestoreio/pkg/net/response"
+	csnet "github.com/weiwolves/pkg/net"
+	"github.com/weiwolves/pkg/net/response"
 	"github.com/corestoreio/errors"
 	"github.com/spf13/afero"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var nonMarshallableChannel chan bool

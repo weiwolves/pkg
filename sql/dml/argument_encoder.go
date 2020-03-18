@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 const argBytesCap = 8

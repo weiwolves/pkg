@@ -38,7 +38,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 )

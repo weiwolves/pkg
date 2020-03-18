@@ -17,8 +17,8 @@ package eav_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/eav"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/eav"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestAttributeSource(t *testing.T) {

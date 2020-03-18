@@ -21,9 +21,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/util/codegen"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/util/codegen"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 // table writes one database table into Go source code.

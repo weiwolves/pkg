@@ -17,8 +17,8 @@ package mock_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/store/mock"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/store/mock"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestNewEurozzyService_Euro(t *testing.T) {

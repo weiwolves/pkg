@@ -22,10 +22,10 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/cstesting"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestWithErrorHandler(t *testing.T) {

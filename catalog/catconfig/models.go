@@ -16,10 +16,10 @@ package catconfig
 
 import (
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/source"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/cfgmodel"
+	"github.com/weiwolves/pkg/config/source"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 const (

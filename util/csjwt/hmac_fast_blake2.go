@@ -20,7 +20,7 @@ import (
 	"hash"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/hashpool"
+	"github.com/weiwolves/pkg/util/hashpool"
 	_ "golang.org/x/crypto/blake2b"
 )
 

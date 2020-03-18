@@ -22,7 +22,7 @@ import (
 	"os"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
+	"github.com/weiwolves/pkg/config"
 )
 
 // AESGCMOptions sets the Key and Nonce from this struct or from environment

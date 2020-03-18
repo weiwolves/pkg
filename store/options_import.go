@@ -20,8 +20,8 @@ import (
 	"os"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/conv"
 	"gopkg.in/yaml.v2"
 )
 

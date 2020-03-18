@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/runmode"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/runmode"
+	"github.com/weiwolves/pkg/store"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ store.CodeProcessor = (*runmode.ProcessStoreCodeCookie)(nil)

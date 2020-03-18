@@ -22,9 +22,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/util/byteconv"
-	"github.com/corestoreio/pkg/util/validation"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/util/byteconv"
+	"github.com/weiwolves/pkg/util/validation"
 )
 
 // ValidateFn function signature for a validator.

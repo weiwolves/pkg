@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/bufferpool"
-	"github.com/corestoreio/pkg/util/byteconv"
+	"github.com/weiwolves/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/byteconv"
 )
 
 // TODO(cys): Remove GobEncoder, GobDecoder, MarshalJSON, UnmarshalJSON in Go 2.

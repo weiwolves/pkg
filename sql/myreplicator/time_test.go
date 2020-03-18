@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestFracTime_String(t *testing.T) {

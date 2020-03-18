@@ -5,7 +5,7 @@ package dmltestgeneratedMToM
 import (
 	"time"
 
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 // Athlete represents a single row for DB table athlete. Auto generated.

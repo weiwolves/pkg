@@ -21,7 +21,7 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/ddl"
 )
 
 // WithLoadFromDB loads the store,group and website data from the database.

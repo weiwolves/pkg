@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/hashpool"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/hashpool"
 	"github.com/dchest/siphash"
 	"github.com/pierrec/xxHash/xxHash64"
 	_ "golang.org/x/crypto/blake2b"

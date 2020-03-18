@@ -18,10 +18,10 @@ package config_test
 //	"fmt"
 //
 //	"github.com/corestoreio/errors"
-//	"github.com/corestoreio/pkg/config"
-//	"github.com/corestoreio/pkg/storage/null"
-//	"github.com/corestoreio/pkg/store"
-//	"github.com/corestoreio/pkg/store/scope"
+//	"github.com/weiwolves/pkg/config"
+//	"github.com/weiwolves/pkg/storage/null"
+//	"github.com/weiwolves/pkg/store"
+//	"github.com/weiwolves/pkg/store/scope"
 //)
 //
 //// Config Service, the Default storage engine with build-in in-memory map. The

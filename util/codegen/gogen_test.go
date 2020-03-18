@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/codegen"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/codegen"
 )
 
 func TestEncloseBT(t *testing.T) {
@@ -33,7 +33,7 @@ func TestNewGo(t *testing.T) {
 	g.BuildTags = []string{"ignoring"}
 	g.SecondLineComments = []string{"this should be a very long random comment printed", "near the top but before the build tags."}
 	g.AddImport("fmt", "")
-	g.AddImport("github.com/corestoreio/pkg/storage/null", "null")
+	g.AddImport("github.com/weiwolves/pkg/storage/null", "null")
 	g.C("These constants", "are used for testing.", "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.")
 	g.WriteConstants(`TableA = "table_a"`)
 	g.Pln(true, "type", "CatalogProductEntity", "struct {")  // should get written
@@ -62,7 +62,7 @@ package config
 
 import (
 	"fmt"
-	null "github.com/corestoreio/pkg/storage/null"
+	null "github.com/weiwolves/pkg/storage/null"
 )
 
 // These constants are used for testing. Unless required by applicable law or

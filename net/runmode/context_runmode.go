@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // TODO important info on how to rework/refactor this package and maybe other.

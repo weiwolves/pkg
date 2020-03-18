@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/corestoreio/pkg/sync/bgwork"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/gzippool"
+	"github.com/weiwolves/pkg/sync/bgwork"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/gzippool"
 )
 
 func TestGetReader(t *testing.T) {

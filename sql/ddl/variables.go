@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dml"
 )
 
 // Variables contains multiple MySQL configuration variables. Not threadsafe.

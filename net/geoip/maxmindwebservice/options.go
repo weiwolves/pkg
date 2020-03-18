@@ -19,12 +19,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/net/geoip"
-	"github.com/corestoreio/pkg/storage/transcache"
-	"github.com/corestoreio/pkg/storage/transcache/tcbigcache"
-	"github.com/corestoreio/pkg/storage/transcache/tcredis"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/cfgmodel"
+	"github.com/weiwolves/pkg/net/geoip"
+	"github.com/weiwolves/pkg/storage/transcache"
+	"github.com/weiwolves/pkg/storage/transcache/tcbigcache"
+	"github.com/weiwolves/pkg/storage/transcache/tcredis"
 	"github.com/corestoreio/errors"
 )
 

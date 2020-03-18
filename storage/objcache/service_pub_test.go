@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/objcache"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/storage/objcache"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/strs"
 	"golang.org/x/sync/errgroup"
 )
 

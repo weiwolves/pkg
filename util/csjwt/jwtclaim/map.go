@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/conv"
 )
 
 // Map default type for the Claim field in a token. Slowest but most flexible

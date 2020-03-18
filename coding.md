@@ -10,7 +10,7 @@ On the first run we got this result:
 $ go test -run=😶 -bench=Benchmark_WithInitStoreByToken .
 PASS
 Benchmark_WithInitStoreByToken-4	  100000	     17297 ns/op	    9112 B/op	     203 allocs/op
-ok  	github.com/corestoreio/pkg/store	2.569s
+ok  	github.com/weiwolves/pkg/store	2.569s
 
 ```
 
@@ -36,7 +36,7 @@ and refactor your code. Once finished you can achieve results like:
 $ go test -run=NONE -bench=Benchmark_WithInitStoreByToken .
 PASS
 Benchmark_WithInitStoreByToken-4	 2000000	       826 ns/op	     128 B/op	       5 allocs/op
-ok  	github.com/corestoreio/pkg/store	2.569s
+ok  	github.com/weiwolves/pkg/store	2.569s
 ```
 
 ### Profiling
@@ -77,7 +77,7 @@ or
 $ go test -gcflags="-d=ssa/check_bce/debug=1" .
 ```
 
-Success - Check bounds outside the loop. 
+Success - Check bounds outside the loop.
 
 ### Running Benchmark
 

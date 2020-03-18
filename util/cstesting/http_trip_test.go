@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/cstesting"
 )
 
 var _ http.RoundTripper = (*cstesting.HTTPTrip)(nil)

@@ -17,10 +17,10 @@ package backend
 import (
 	"net/http"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/source"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/cfgmodel"
+	"github.com/weiwolves/pkg/config/source"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // ConfigRedirectToBase enables if a redirect to the base URL should

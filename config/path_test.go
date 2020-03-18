@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/naughtystrings"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/naughtystrings"
 )
 
 var (

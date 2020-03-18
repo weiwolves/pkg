@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/corestoreio/pkg/config
+pkg: github.com/weiwolves/pkg/config
 BenchmarkBuildTrieKey/scope=0_with_prefix-4         	191589112	         6.23 ns/op	       0 B/op	       0 allocs/op
 BenchmarkBuildTrieKey/scope=0_with_prefix-4         	194087455	         6.15 ns/op	       0 B/op	       0 allocs/op
 BenchmarkBuildTrieKey/scope=0_with_prefix-4         	193527085	         6.20 ns/op	       0 B/op	       0 allocs/op
@@ -117,4 +117,4 @@ BenchmarkPath_Marshal/UnmarshalBinary-4             	 5977053	       201 ns/op	 
 BenchmarkPath_Marshal/UnmarshalBinary-4             	 5959538	       201 ns/op	      48 B/op	       1 allocs/op
 BenchmarkPath_Marshal/UnmarshalBinary-4             	 5964226	       201 ns/op	      48 B/op	       1 allocs/op
 PASS
-ok  	github.com/corestoreio/pkg/config	171.669s
+ok  	github.com/weiwolves/pkg/config	171.669s

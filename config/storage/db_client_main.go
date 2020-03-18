@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/dmlgen"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dmlgen"
 )
 
 func main() {
@@ -35,7 +35,7 @@ func main() {
 	// we assume the table core_configuration already exists
 
 	ctx := context.Background()
-	ts, err := dmlgen.NewGenerator("github.com/corestoreio/pkg/config/storage",
+	ts, err := dmlgen.NewGenerator("github.com/weiwolves/pkg/config/storage",
 
 		dmlgen.WithTablesFromDB(ctx, dbcp, "core_configuration"),
 		dmlgen.WithBuildTags("csall db"),

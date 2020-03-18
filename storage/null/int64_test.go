@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 	"github.com/gogo/protobuf/proto"
 )
 

@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 // table with 2007 rows and 5 columns

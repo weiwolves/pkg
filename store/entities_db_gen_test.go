@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/pseudo"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/pseudo"
 )
 
 func TestNewTablesDB_8fbf75a91e4e6bd670de701be5c9ec85(t *testing.T) {

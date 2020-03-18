@@ -19,8 +19,8 @@ import (
 	"strings"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/conv"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 // FormatError gets returned when generating the source code in case gofmt or

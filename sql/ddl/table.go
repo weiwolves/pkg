@@ -24,9 +24,9 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // Table represents a table from a specific database with a bound default

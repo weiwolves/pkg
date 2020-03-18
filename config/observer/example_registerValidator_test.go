@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
-	"github.com/corestoreio/pkg/config/storage"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/observer"
+	"github.com/weiwolves/pkg/config/storage"
 )
 
 // ExampleRegisterValidator register a custom validator with the name
@@ -40,7 +40,7 @@ func ExampleRegisterValidator() {
 		"stores/3/payment/serviceX/username", "abcUser",
 	), config.Options{})
 
-	err := observer.RegisterWithJSON(cfgSrv, bytes.NewBufferString(`{"Collection":[ { 
+	err := observer.RegisterWithJSON(cfgSrv, bytes.NewBufferString(`{"Collection":[ {
 		  "event":"after_get", "route":"payment/serviceX/username", "type":"validator",
 		  "condition":{"funcs":["utf8","check_xyzUser"]}}
 		]}`))

@@ -2,7 +2,7 @@
 
 ### based on an optimized Magento 2 database structure.
 
-[![Build Status](https://travis-ci.org/corestoreio/pkg.svg?branch=master)](https://travis-ci.org/corestoreio/pkg) [![wercker status](https://app.wercker.com/status/d7d0bdda415d2228b6fb5bb01681b5c4/s/master "wercker status")](https://app.wercker.com/project/bykey/d7d0bdda415d2228b6fb5bb01681b5c4) [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/lrlnbpcjdy585mg1/branch/master?svg=true)](https://ci.appveyor.com/project/SchumacherFM/pkg/branch/master) [![GoDoc](http://godoc.org/github.com/corestoreio/pkg?status.svg)](http://godoc.org/github.com/corestoreio/pkg) [![Join the chat at https://gitter.im/corestoreio/pkg](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/corestoreio/pkg?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [goreportcard](http://goreportcard.com/report/Corestoreio/pkg)
+[![Build Status](https://travis-ci.org/corestoreio/pkg.svg?branch=master)](https://travis-ci.org/corestoreio/pkg) [![wercker status](https://app.wercker.com/status/d7d0bdda415d2228b6fb5bb01681b5c4/s/master "wercker status")](https://app.wercker.com/project/bykey/d7d0bdda415d2228b6fb5bb01681b5c4) [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/lrlnbpcjdy585mg1/branch/master?svg=true)](https://ci.appveyor.com/project/SchumacherFM/pkg/branch/master) [![GoDoc](http://godoc.org/github.com/weiwolves/pkg?status.svg)](http://godoc.org/github.com/weiwolves/pkg) [![Join the chat at https://gitter.im/corestoreio/pkg](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/corestoreio/pkg?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [goreportcard](http://goreportcard.com/report/Corestoreio/pkg)
 
 Magento is a trademark of [MAGENTO, INC.](http://www.magentocommerce.com/license/).
 
@@ -22,16 +22,16 @@ $ export CS_DSN='magento2:magento2@tcp(localhost:3306)/magento2'
 ```
 
 ```
-$ go get github.com/corestoreio/pkg
+$ go get github.com/weiwolves/pkg
 $ export CS_DSN='see previous'
-$ cd $GOPATH/src/github.com/corestoreio/pkg
+$ cd $GOPATH/src/github.com/weiwolves/pkg
 $ xgo run xcodegen/tableToStruct/*.go
 ```
 
 ## Testing
 
 Setup database for Magento 2 and fill them with
-the provided [testdata](https://github.com/corestoreio/pkg/tree/master/testData).
+the provided [testdata](https://github.com/weiwolves/pkg/tree/master/testData).
 
 Create a DSN env var `CS_DSN` and point it to Magento 2 database. Run the tests.
 
@@ -86,24 +86,24 @@ from the geniuses listed below:
 
 | Name | Package | License |
 | -------|----------|-------|
-| Steve Francia | [util/conv](http://github.com/corestoreio/pkg/tree/master/utils/conv) | MIT Copyright (c) 2014 |
-| Martin Angers and Contributors. | [ctxthrottled](http://github.com/corestoreio/pkg/tree/master/net/ctxthrottled) | The MIT License (MIT) 2014 |
+| Steve Francia | [util/conv](http://github.com/weiwolves/pkg/tree/master/utils/conv) | MIT Copyright (c) 2014 |
+| Martin Angers and Contributors. | [ctxthrottled](http://github.com/weiwolves/pkg/tree/master/net/ctxthrottled) | The MIT License (MIT) 2014 |
 | Dave Cheney <dave AT cheney.net> | [util/errors](https://github.com/pkg/errors) | The MIT License (MIT) 2015 |
-| Jad Dittmar | [finance](https://github.com/Confunctionist/finance) aka. [money](http://github.com/corestoreio/pkg/tree/master/storage/money) | Copyright (c) 2011 |
+| Jad Dittmar | [finance](https://github.com/Confunctionist/finance) aka. [money](http://github.com/weiwolves/pkg/tree/master/storage/money) | Copyright (c) 2011 |
 | Google Inc | [youtube/vitess\sqlparser](https://github.com/youtube/vitess) | Copyright 2012 BSD Style |
-| Olivier Poitrey| [ctxmw.WithAccessLog](https://github.com/corestoreio/pkg/tree/master/net/ctxmw) & CORS | Copyright (c) 2014-2015  MIT License |
-| Dave Grijalva| [csjwt](https://github.com/corestoreio/pkg/tree/master/util/csjwt) | Copyright (c) 2012 MIT License |
-| Uber Technologies, Inc. | [log](https://github.com/corestoreio/pkg/tree/master/log) | Copyright (c) 2016 MIT License |
-| 2013 The Go Authors | [singleflight](https://github.com/corestoreio/pkg/tree/master/sync/singleflight) | Copyright (c) 2013 BSD Style |
-| Ventu.io, Oleg Sklyar, contributors. | [util/shortid](http://github.com/corestoreio/pkg/tree/master/utils/shortid) | MIT License Copyright (c) 2016, |
-| Carl Jackson (carl@avtok.com) (Goji) | [net/responseproxy](http://github.com/corestoreio/pkg/tree/master/net/responseproxy) | Copyright (c) 2014, 2015, 2016 |
-| Greg Roseberry, 2014; Patrick O'Brien, 2016 | [util/null](http://github.com/corestoreio/pkg/tree/master/util/null) | BSD Copyright (c) 2014, 2015, 2016 |
-| The Go-MySQL-Driver Authors | [storage/null/time_mysql.go](http://github.com/corestoreio/pkg/tree/master/storage/null/time_mysql.go) | Mozilla Public License, v. 2.0, Copyright 2012  |
-| siddontang | [storage/binlogsync](http://github.com/corestoreio/pkg/tree/master/storage/binlogsync) | MIT Copyright (c) 2014  |
-| siddontang | [storage/myreplicator](http://github.com/corestoreio/pkg/tree/master/storage/myreplicator) | MIT Copyright (c) 2014  |
-| Tace De Wolf | [util/byteconv](http://github.com/corestoreio/pkg/tree/master/util/byteconv) | MIT Copyright (c) 2015  |
-| Copyright 2013 The Camlistore Authors | [util/byteconv](http://github.com/corestoreio/pkg/tree/master/util/byteconv) | Apache 2.0  |
-| Copyright 2013 Google Inc. | [storage/lru](http://github.com/corestoreio/pkg/tree/master/storage/lru) | Apache 2.0  |
+| Olivier Poitrey| [ctxmw.WithAccessLog](https://github.com/weiwolves/pkg/tree/master/net/ctxmw) & CORS | Copyright (c) 2014-2015  MIT License |
+| Dave Grijalva| [csjwt](https://github.com/weiwolves/pkg/tree/master/util/csjwt) | Copyright (c) 2012 MIT License |
+| Uber Technologies, Inc. | [log](https://github.com/weiwolves/pkg/tree/master/log) | Copyright (c) 2016 MIT License |
+| 2013 The Go Authors | [singleflight](https://github.com/weiwolves/pkg/tree/master/sync/singleflight) | Copyright (c) 2013 BSD Style |
+| Ventu.io, Oleg Sklyar, contributors. | [util/shortid](http://github.com/weiwolves/pkg/tree/master/utils/shortid) | MIT License Copyright (c) 2016, |
+| Carl Jackson (carl@avtok.com) (Goji) | [net/responseproxy](http://github.com/weiwolves/pkg/tree/master/net/responseproxy) | Copyright (c) 2014, 2015, 2016 |
+| Greg Roseberry, 2014; Patrick O'Brien, 2016 | [util/null](http://github.com/weiwolves/pkg/tree/master/util/null) | BSD Copyright (c) 2014, 2015, 2016 |
+| The Go-MySQL-Driver Authors | [storage/null/time_mysql.go](http://github.com/weiwolves/pkg/tree/master/storage/null/time_mysql.go) | Mozilla Public License, v. 2.0, Copyright 2012  |
+| siddontang | [storage/binlogsync](http://github.com/weiwolves/pkg/tree/master/storage/binlogsync) | MIT Copyright (c) 2014  |
+| siddontang | [storage/myreplicator](http://github.com/weiwolves/pkg/tree/master/storage/myreplicator) | MIT Copyright (c) 2014  |
+| Tace De Wolf | [util/byteconv](http://github.com/weiwolves/pkg/tree/master/util/byteconv) | MIT Copyright (c) 2015  |
+| Copyright 2013 The Camlistore Authors | [util/byteconv](http://github.com/weiwolves/pkg/tree/master/util/byteconv) | Apache 2.0  |
+| Copyright 2013 Google Inc. | [storage/lru](http://github.com/weiwolves/pkg/tree/master/storage/lru) | Apache 2.0  |
 | Alex Saskevich | [util/validation](http://github.com/asaskevich/govalidator) | MIT Copyright (c) 2014  |
 | Mat Ryer and Tyler Bunnell | [util/assert](http://github.com/alecthomas/assert) or github.com/stretchr/testify | Copyright (c) 2012 - 2013  |
 | Google Youtube | [storage/lru](http://github.com/youtube/vitess) | Apache License, Version 2.0 |

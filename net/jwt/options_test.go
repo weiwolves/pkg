@@ -19,13 +19,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/jwt"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/conv"
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+	"github.com/weiwolves/pkg/net/jwt"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt/jwtclaim"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 	"github.com/stretchr/testify/require"
 )
 

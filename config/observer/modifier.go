@@ -24,10 +24,10 @@ import (
 	"sync"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/util/bufferpool"
-	"github.com/corestoreio/pkg/util/gzippool"
-	"github.com/corestoreio/pkg/util/hashpool"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/gzippool"
+	"github.com/weiwolves/pkg/util/hashpool"
 )
 
 // ModifierFn defines the function signature for altering the data.

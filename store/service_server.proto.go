@@ -21,8 +21,8 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/net/csgrpc"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/net/csgrpc"
+	"github.com/weiwolves/pkg/store/scope"
 	"github.com/gogo/protobuf/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

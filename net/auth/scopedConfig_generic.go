@@ -18,8 +18,8 @@ import (
 	"net/http"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // Auto generated: Do not edit. See net/internal/scopedService package for more details.

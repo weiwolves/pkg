@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/net/auth"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/auth"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func withError() auth.Option {

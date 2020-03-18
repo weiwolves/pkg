@@ -41,7 +41,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/sync/bgwork"
+	"github.com/weiwolves/pkg/sync/bgwork"
 )
 
 func TestIsAlpha(t *testing.T) {

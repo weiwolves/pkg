@@ -18,8 +18,8 @@ import (
 	"net/http"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 // CodeFieldName defines the filed name where store code has been saved. Used in

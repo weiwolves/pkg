@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 // CoreConfiguration represents a single row for DB table core_configuration.

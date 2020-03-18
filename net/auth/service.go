@@ -16,7 +16,7 @@
 
 package auth
 
-import "github.com/corestoreio/pkg/config"
+import "github.com/weiwolves/pkg/config"
 
 // Service implements authentication middleware and scoped based authorization.
 type Service struct {

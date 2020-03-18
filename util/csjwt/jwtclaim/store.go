@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/conv"
 )
 
 // Key.... are available claims in struct Store.
-// KeyStore is equal to github.com/corestoreio/pkg/store/storenet.ParamName
+// KeyStore is equal to github.com/weiwolves/pkg/store/storenet.ParamName
 const (
 	KeyStore  = "store"
 	KeyUserID = "userid"

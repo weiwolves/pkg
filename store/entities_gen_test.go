@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/pseudo"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/pseudo"
 )
 
 func TestNewTablesNonDB_8fbf75a91e4e6bd670de701be5c9ec85(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // Storager defines a custom backend cache type to be used as underlying storage

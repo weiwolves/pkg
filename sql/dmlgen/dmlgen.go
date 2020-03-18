@@ -28,11 +28,11 @@ import (
 	"strings"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/util/codegen"
-	"github.com/corestoreio/pkg/util/slices"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/util/codegen"
+	"github.com/weiwolves/pkg/util/slices"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 // Initial idea and prototyping for code generation.
@@ -460,10 +460,10 @@ func NewGenerator(packageImportPath string, opts ...Option) (*Generator, error) 
 			"time",
 
 			"github.com/corestoreio/errors",
-			"github.com/corestoreio/pkg/sql/ddl",
-			"github.com/corestoreio/pkg/sql/dml",
-			"github.com/corestoreio/pkg/storage/null",
-			"github.com/corestoreio/pkg/util/cstrace",
+			"github.com/weiwolves/pkg/sql/ddl",
+			"github.com/weiwolves/pkg/sql/dml",
+			"github.com/weiwolves/pkg/storage/null",
+			"github.com/weiwolves/pkg/util/cstrace",
 			"go.opentelemetry.io/otel/api/trace",
 		},
 		ImportPathsTesting: []string{
@@ -473,11 +473,11 @@ func NewGenerator(packageImportPath string, opts ...Option) (*Generator, error) 
 			"time",
 
 			"github.com/corestoreio/errors",
-			"github.com/corestoreio/pkg/sql/ddl",
-			"github.com/corestoreio/pkg/sql/dml",
-			"github.com/corestoreio/pkg/sql/dmltest",
-			"github.com/corestoreio/pkg/util/assert",
-			"github.com/corestoreio/pkg/util/pseudo",
+			"github.com/weiwolves/pkg/sql/ddl",
+			"github.com/weiwolves/pkg/sql/dml",
+			"github.com/weiwolves/pkg/sql/dmltest",
+			"github.com/weiwolves/pkg/util/assert",
+			"github.com/weiwolves/pkg/util/pseudo",
 		},
 	}
 
@@ -655,7 +655,7 @@ func (g *Generator) generateProto(w io.Writer) error {
 
 	const importTimeStamp = `import "google/protobuf/timestamp.proto";`
 	proto.Pln(importTimeStamp)
-	proto.Pln(`import "github.com/corestoreio/pkg/storage/null/null.proto";`)
+	proto.Pln(`import "github.com/weiwolves/pkg/storage/null/null.proto";`)
 	proto.Pln(`option go_package = "` + pPkg + `";`)
 
 	for _, o := range g.SerializerHeaderOptions {

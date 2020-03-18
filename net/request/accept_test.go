@@ -19,8 +19,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/corestoreio/pkg/net/request"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/request"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func getReq(accept string) *http.Request {

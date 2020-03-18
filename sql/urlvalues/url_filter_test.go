@@ -4,10 +4,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/urlvalues"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/urlvalues"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 // BenchmarkNewFilter_Filters-4   	 3324812	       325 ns/op	     249 B/op	       2 allocs/op

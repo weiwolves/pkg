@@ -23,7 +23,7 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/config"
+	"github.com/weiwolves/pkg/config"
 )
 
 type option func(*config.Service, func(config.Setter, io.Reader) error) error

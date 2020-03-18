@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/corestoreio/pkg/sql/dml
+pkg: github.com/weiwolves/pkg/sql/dml
 BenchmarkSelect_Rows-4                      	  399142	      2850 ns/op	    5866 B/op	      17 allocs/op
 BenchmarkSelect_Rows-4                      	  424730	      2815 ns/op	    5866 B/op	      17 allocs/op
 BenchmarkSelect_Rows-4                      	  429768	      2821 ns/op	    5866 B/op	      17 allocs/op
@@ -307,4 +307,4 @@ BenchmarkJackC_GoDBBench/SelectMultipleRowsEntity_Interface-4             	    7
 BenchmarkJackC_GoDBBench/SelectMultipleRowsEntity_Interface-4             	    7735	    155770 ns/op	    6656 B/op	     305 allocs/op
 BenchmarkJackC_GoDBBench/SelectMultipleRowsEntity_Interface-4             	    7635	    156341 ns/op	    6656 B/op	     305 allocs/op
 PASS
-ok  	github.com/corestoreio/pkg/sql/dml	467.954s
+ok  	github.com/weiwolves/pkg/sql/dml	467.954s

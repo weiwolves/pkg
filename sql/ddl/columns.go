@@ -22,10 +22,10 @@ import (
 	"strings"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/bufferpool"
-	"github.com/corestoreio/pkg/util/slices"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/slices"
 )
 
 // Helper constants to detect certain features of a table and or column.

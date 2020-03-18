@@ -19,8 +19,8 @@ import (
 
 	"context"
 
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestFromContext_Token(t *testing.T) {

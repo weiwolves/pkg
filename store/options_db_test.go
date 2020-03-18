@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/store"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var (

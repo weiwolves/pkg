@@ -20,10 +20,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	csnet "github.com/corestoreio/pkg/net"
-	"github.com/corestoreio/pkg/net/auth"
-	"github.com/corestoreio/pkg/net/request"
-	"github.com/corestoreio/pkg/util/assert"
+	csnet "github.com/weiwolves/pkg/net"
+	"github.com/weiwolves/pkg/net/auth"
+	"github.com/weiwolves/pkg/net/request"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 // check if the returned function conforms with the auth package

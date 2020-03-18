@@ -22,7 +22,7 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dml"
 	"github.com/fatih/color"
 )
 

@@ -20,12 +20,12 @@ import (
 	"net/http/httptest"
 	"path/filepath"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/net/geoip"
-	"github.com/corestoreio/pkg/net/geoip/backendgeoip"
-	"github.com/corestoreio/pkg/net/geoip/maxmindfile"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config/cfgmock"
+	"github.com/weiwolves/pkg/net/geoip"
+	"github.com/weiwolves/pkg/net/geoip/backendgeoip"
+	"github.com/weiwolves/pkg/net/geoip/maxmindfile"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
 	"github.com/corestoreio/log"
 )
 

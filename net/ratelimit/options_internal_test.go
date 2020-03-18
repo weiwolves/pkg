@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/cstesting"
 	"gopkg.in/throttled/throttled.v2"
 	"gopkg.in/throttled/throttled.v2/store/memstore"
 )

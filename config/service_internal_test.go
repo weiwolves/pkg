@@ -17,7 +17,7 @@ package config
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 var _ getter = (*Service)(nil)

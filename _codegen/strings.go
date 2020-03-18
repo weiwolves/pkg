@@ -24,7 +24,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/corestoreio/pkg/util"
+	"github.com/weiwolves/pkg/util"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 )
@@ -181,8 +181,8 @@ func extractSplit(s string) (path string, tp []string, hasVersion bool, _ error)
 
 // ExtractImportPath extracts from an extended import path with a function or type call
 // the import path.
-// github.com/corestoreio/pkg/customer.Customer() would become
-// github.com/corestoreio/pkg/customer
+// github.com/weiwolves/pkg/customer.Customer() would become
+// github.com/weiwolves/pkg/customer
 func ExtractImportPath(s string) (string, error) {
 
 	if s == "" {
@@ -203,7 +203,7 @@ func ExtractImportPath(s string) (string, error) {
 
 // ExtractFuncType extracts from an extended import path with a function or type call
 // the function or type call.
-// github.com/corestoreio/pkg/customer.Customer() would become customer.Customer()
+// github.com/weiwolves/pkg/customer.Customer() would become customer.Customer()
 func ExtractFuncType(s string) (string, error) {
 	if s == "" {
 		return "", nil

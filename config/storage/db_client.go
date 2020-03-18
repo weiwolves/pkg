@@ -25,10 +25,10 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // TODO https://mariadb.com/kb/en/library/system-versioned-tables/

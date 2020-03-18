@@ -17,7 +17,7 @@
 package cors
 
 import (
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 	"github.com/corestoreio/errors"
 )
 

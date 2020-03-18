@@ -15,8 +15,8 @@
 package eav
 
 import (
-	"github.com/corestoreio/pkg/storage/csdb"
-	"github.com/corestoreio/pkg/storage/dbr"
+	"github.com/weiwolves/pkg/storage/csdb"
+	"github.com/weiwolves/pkg/storage/dbr"
 
 	"github.com/corestoreio/errors"
 )

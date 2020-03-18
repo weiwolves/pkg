@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/bufferpool"
 	"github.com/corestoreio/errors"
 )
 

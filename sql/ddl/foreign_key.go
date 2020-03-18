@@ -22,8 +22,8 @@ import (
 	"sort"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/storage/null"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 // KeyColumnUsage represents a single row for DB table `KEY_COLUMN_USAGE`

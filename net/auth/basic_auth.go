@@ -19,9 +19,9 @@ import (
 	"net/http"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/hashpool"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/hashpool"
 )
 
 // BasicAuthFunc defines a function to validate basic auth credentials.

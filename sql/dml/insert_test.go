@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/sync/bgwork"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/sync/bgwork"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ ColumnMapper = (*someRecord)(nil)

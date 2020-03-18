@@ -20,7 +20,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/corestoreio/pkg/config"
+	"github.com/weiwolves/pkg/config"
 )
 
 type liElem struct {

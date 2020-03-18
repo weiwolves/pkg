@@ -17,8 +17,8 @@ package mock
 import (
 	"sync/atomic"
 
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 var _ store.Finder = (*Find)(nil)

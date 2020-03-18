@@ -14,7 +14,7 @@
 
 package locale
 
-import "github.com/corestoreio/pkg/util/slices"
+import "github.com/weiwolves/pkg/util/slices"
 
 // AllowedLocales lists all allowed default locales. You may modify this variable.
 var AllowedLocales = slices.String{

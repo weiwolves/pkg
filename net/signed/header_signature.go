@@ -19,7 +19,7 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/bufferpool"
 	"github.com/corestoreio/errors"
 )
 

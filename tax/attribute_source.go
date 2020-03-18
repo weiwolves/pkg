@@ -14,7 +14,7 @@
 
 package tax
 
-import "github.com/corestoreio/pkg/eav"
+import "github.com/weiwolves/pkg/eav"
 
 // AttributeSourceTaxClassProduct @todo
 // @see magento2/site/app/code/Magento/Tax/Model/TaxClass/Source/Product.php

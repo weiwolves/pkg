@@ -17,8 +17,8 @@ package backendgeoip_test
 import (
 	"path/filepath"
 
-	"github.com/corestoreio/pkg/net/geoip/backendgeoip"
-	"github.com/corestoreio/pkg/net/geoip/maxmindfile"
+	"github.com/weiwolves/pkg/net/geoip/backendgeoip"
+	"github.com/weiwolves/pkg/net/geoip/maxmindfile"
 )
 
 // backend overall backend models for all tests

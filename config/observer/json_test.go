@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/util/assert"
-	uv "github.com/corestoreio/pkg/util/validation"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/util/assert"
+	uv "github.com/weiwolves/pkg/util/validation"
 	"github.com/mailru/easyjson"
 )
 
@@ -42,8 +42,8 @@ func TestDeregisterObservers(t *testing.T) {
 			t: t,
 		}
 
-		err := DeregisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":before_set, "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]} 
+		err := DeregisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":before_set, "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]}
 		}]}`))
 		assert.True(t, errors.BadEncoding.Match(err), "%+v", err)
 	})
@@ -51,8 +51,8 @@ func TestDeregisterObservers(t *testing.T) {
 		or := observerRegistererFake{
 			t: t,
 		}
-		err := DeregisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":"before_heck", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]} 
+		err := DeregisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":"before_heck", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]}
 		}]}`))
 		assert.True(t, errors.NotFound.Match(err), "%+v", err)
 	})
@@ -63,8 +63,8 @@ func TestDeregisterObservers(t *testing.T) {
 			wantEvent: config.EventOnBeforeSet,
 			wantRoute: "payment/pp/port",
 		}
-		err := DeregisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":"before_set", "route":"payment/pp/port" 
+		err := DeregisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":"before_set", "route":"payment/pp/port"
 		}]}`))
 		assert.NoError(t, err)
 	})
@@ -78,8 +78,8 @@ func TestRegisterObservers(t *testing.T) {
 			t: t,
 		}
 
-		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":before_set, "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]} 
+		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":before_set, "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]}
 		}]}`))
 		assert.True(t, errors.BadEncoding.Match(err), "%+v", err)
 	})
@@ -92,8 +92,8 @@ func TestRegisterObservers(t *testing.T) {
 			wantValidator: &ValidateMinMaxInt{Conditions: []int64{8080, 8090}},
 		}
 
-		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":"before_set", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]} 
+		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":"before_set", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]}
 		}]}`))
 		assert.NoError(t, err)
 	})
@@ -105,8 +105,8 @@ func TestRegisterObservers(t *testing.T) {
 			wantValidator: &ValidateMinMaxInt{Conditions: []int64{}},
 		}
 
-		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":"before_set", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[]} 
+		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":"before_set", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[]}
 		}]}`))
 		assert.NoError(t, err)
 	})
@@ -114,8 +114,8 @@ func TestRegisterObservers(t *testing.T) {
 		or := observerRegistererFake{
 			t: t,
 		}
-		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":"before_set", "route":"payment/pp/port", "type":"validateMinMaxInt" 
+		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":"before_set", "route":"payment/pp/port", "type":"validateMinMaxInt"
 		}]}`))
 		assert.True(t, errors.Empty.Match(err), "%+v", err)
 	})
@@ -126,8 +126,8 @@ func TestRegisterObservers(t *testing.T) {
 			wantRoute:     "pay",
 			wantValidator: &ValidateMinMaxInt{Conditions: []int64{8080, 8090}},
 		}
-		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
-			"event":"before_set", "route":"pay", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]} 
+		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
+			"event":"before_set", "route":"pay", "type":"validateMinMaxInt", "condition":{"conditions":[8080,8090]}
 		}]}`))
 		assert.NoError(t, err)
 	})
@@ -135,7 +135,7 @@ func TestRegisterObservers(t *testing.T) {
 		or := observerRegistererFake{
 			t: t,
 		}
-		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
+		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
 			"event":"before_sunrise", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[3]}
 		}]}`))
 		assert.True(t, errors.NotFound.Match(err), "%+v", err)
@@ -144,7 +144,7 @@ func TestRegisterObservers(t *testing.T) {
 		or := observerRegistererFake{
 			t: t,
 		}
-		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{ 
+		err := RegisterWithJSON(or, bytes.NewBufferString(`{"Collection":[{
 			"event":"before_set", "route":"payment/pp/port", "type":"validateMinMaxInt", "condition":{"conditions":[x]}
 		}]}`))
 		assert.True(t, errors.BadEncoding.Match(err), "%+v", err)
@@ -314,7 +314,7 @@ func (xv xmlValidator) Observe(p config.Path, rawData []byte, found bool) (newRa
 func TestValidators_JSON(t *testing.T) {
 	t.Parallel()
 
-	data := []byte(`{"Collection":[ 
+	data := []byte(`{"Collection":[
 	{ "event":"after_get", "route":"gg/ee/ff", "type":"validator",
 		  "condition":{"funcs":["Locale"],"additional_allowed_values":["Rhomulan"]}},
 	{ "event":"after_set", "route":"aa/ee/ff", "type":"validator",

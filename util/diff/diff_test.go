@@ -17,8 +17,8 @@ package diff_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/diff"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/diff"
 )
 
 func TestUnified(t *testing.T) {

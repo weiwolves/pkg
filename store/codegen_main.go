@@ -24,12 +24,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/dmlgen"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dmlgen"
 )
 
 func main() {
-	const pkgPath = "github.com/corestoreio/pkg/store"
+	const pkgPath = "github.com/weiwolves/pkg/store"
 
 	dbcp := dml.MustConnectAndVerify(dml.WithDSNFromEnv(""))
 	defer mustCheckCloseErr(dbcp)

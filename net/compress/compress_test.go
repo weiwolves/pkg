@@ -23,13 +23,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	csnet "github.com/corestoreio/pkg/net"
-	"github.com/corestoreio/pkg/net/compress"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/net/response"
+	csnet "github.com/weiwolves/pkg/net"
+	"github.com/weiwolves/pkg/net/compress"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/net/response"
 	"github.com/klauspost/compress/flate"
 	"github.com/klauspost/compress/gzip"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var testJson string

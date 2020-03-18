@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/storage/containable"
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
-	"github.com/corestoreio/pkg/util/shortid"
+	"github.com/weiwolves/pkg/storage/containable"
+	"github.com/weiwolves/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt/jwtclaim"
+	"github.com/weiwolves/pkg/util/shortid"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestScopedConfig_ParseFromRequest_Valid(t *testing.T) {

@@ -17,11 +17,11 @@ package jwt
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/config/cfgmock"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/csjwt"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestServiceWithBackend_NoBackend(t *testing.T) {

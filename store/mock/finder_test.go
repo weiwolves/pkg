@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/store/mock"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/store/mock"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestFind(t *testing.T) {

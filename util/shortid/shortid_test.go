@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/util/shortid"
+	"github.com/weiwolves/pkg/util/shortid"
 )
 
 func Test_onGetDefault_defaultInstance(t *testing.T) {

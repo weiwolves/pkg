@@ -3,7 +3,7 @@ package migration_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/migration"
+	"github.com/weiwolves/pkg/sql/migration"
 )
 
 func TestRun(t *testing.T) {

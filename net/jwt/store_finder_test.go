@@ -15,9 +15,9 @@
 package jwt_test
 
 import (
-	"github.com/corestoreio/pkg/net/jwt"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/net/jwt"
+	"github.com/weiwolves/pkg/store"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 type storeFinderMock struct{}

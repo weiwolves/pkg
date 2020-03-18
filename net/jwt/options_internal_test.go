@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/corestoreio/pkg/net/jwt"
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/jwt"
+	"github.com/weiwolves/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestInternalOptionNoLeakage(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 
 	"bytes"
 
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt"
 )
 
 // check if interface has been implemented.

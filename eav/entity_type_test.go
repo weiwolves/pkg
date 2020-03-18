@@ -17,10 +17,10 @@ package eav_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/eav"
-	"github.com/corestoreio/pkg/storage/csdb"
-	"github.com/corestoreio/pkg/storage/dbr"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/eav"
+	"github.com/weiwolves/pkg/storage/csdb"
+	"github.com/weiwolves/pkg/storage/dbr"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var (

@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/codegen"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/codegen"
 )
 
 func TestNewProto(t *testing.T) {
@@ -56,9 +56,9 @@ option false = go_package;
 // an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
 // or implied. See the License for the specific language governing permissions
 // and limitations under the License.
-message CoreConfigData { 
-	uint32 config_id = 1 [(gogoproto.customname)= "ConfigID" ]; 
-	google.protobuf.Timestamp version_te = 8 [(gogoproto.customname)= "VersionTe" ,(gogoproto.stdtime)=true,(gogoproto.nullable)=false]; 
-} 
+message CoreConfigData {
+	uint32 config_id = 1 [(gogoproto.customname)= "ConfigID" ];
+	google.protobuf.Timestamp version_te = 8 [(gogoproto.customname)= "VersionTe" ,(gogoproto.stdtime)=true,(gogoproto.nullable)=false];
+}
 `, buf.String())
 }

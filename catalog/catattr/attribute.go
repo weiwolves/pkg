@@ -18,7 +18,7 @@ package catattr
 
 import (
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/eav"
+	"github.com/weiwolves/pkg/eav"
 )
 
 // TODO(CyS) this code is so wrong in so many cases. delete it and build it new.s

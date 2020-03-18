@@ -15,7 +15,7 @@
 package custattr
 
 import (
-	"github.com/corestoreio/pkg/eav"
+	"github.com/weiwolves/pkg/eav"
 	"github.com/corestoreio/errors"
 )
 

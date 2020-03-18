@@ -17,7 +17,7 @@ package migration
 import (
 	"context"
 
-	"github.com/corestoreio/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dml"
 )
 
 // ToUTF8MB4 converts MySQL compatible databases from utf8 to utf8mb4. What’s

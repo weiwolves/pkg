@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/cors"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/net/cors"
+	"github.com/weiwolves/pkg/util/cstesting"
 )
 
 const testHandlerBodyData = `foobar`

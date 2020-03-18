@@ -17,7 +17,7 @@ package signed
 import (
 	"time"
 
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // WithDefaultConfig applies the default signed configuration settings based

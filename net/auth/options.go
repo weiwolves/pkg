@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // WithDefaultConfig applies the default configuration settings for

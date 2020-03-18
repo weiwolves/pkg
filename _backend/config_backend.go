@@ -15,8 +15,8 @@
 package backend
 
 import (
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config/element"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // ConfigStructure global configuration structure for this package.
@@ -1133,7 +1133,7 @@ func init() {
 						&element.Field{
 							// Path: system/emails/forgot_email_template
 							ID:      `forgot_email_template`,
-							Type:    element.TypeHidden,	
+							Type:    element.TypeHidden,
 														Default: `system_emails_forgot_email_template`,
 						},
 

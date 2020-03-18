@@ -17,7 +17,7 @@ package objcache_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/objcache"
+	"github.com/weiwolves/pkg/storage/objcache"
 )
 
 func TestNewCacheLRU_Delete(t *testing.T) {

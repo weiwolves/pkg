@@ -11,4 +11,4 @@ then
 	go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
 fi
 
-golangci-lint run --config=$GOPATH/src/github.com/corestoreio/pkg/.golangci.yml $@\
+golangci-lint run --config=$GOPATH/src/github.com/weiwolves/pkg/.golangci.yml $@\

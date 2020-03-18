@@ -173,7 +173,7 @@ func GenerateProto(protoFilesPath string, po *ProtocOptions) error {
 	}
 
 	// what a hack: find all *.pb.go files and remove `import null
-	// "github.com/corestoreio/pkg/storage/null"` because no other way to get
+	// "github.com/weiwolves/pkg/storage/null"` because no other way to get
 	// rid of the unused import or reference that import somehow in the
 	// generated file :-( Once there's a better solution, remove this code.
 	pbGoFiles, err := filepath.Glob(protoFilesPath + "*.pb.*go")
@@ -182,8 +182,8 @@ func GenerateProto(protoFilesPath string, po *ProtocOptions) error {
 	}
 
 	removeImports := [][]byte{
-		[]byte("import null \"github.com/corestoreio/pkg/storage/null\"\n"),
-		[]byte("null \"github.com/corestoreio/pkg/storage/null\"\n"),
+		[]byte("import null \"github.com/weiwolves/pkg/storage/null\"\n"),
+		[]byte("null \"github.com/weiwolves/pkg/storage/null\"\n"),
 	}
 	for _, file := range pbGoFiles {
 		fContent, err := ioutil.ReadFile(file)

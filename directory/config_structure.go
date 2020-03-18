@@ -15,8 +15,8 @@
 package directory
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // NewConfigStructure global configuration structure for this package.

@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
+	"github.com/weiwolves/pkg/config"
 )
 
 type kvmap struct {

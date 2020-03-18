@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/naughtystrings"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/naughtystrings"
 )
 
 // They both must be kept in sync

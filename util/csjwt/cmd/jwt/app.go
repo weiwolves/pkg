@@ -16,8 +16,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+	"github.com/weiwolves/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt/jwtclaim"
 )
 
 var (

@@ -19,7 +19,7 @@ package storage
 import (
 	"github.com/allegro/bigcache"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
+	"github.com/weiwolves/pkg/config"
 )
 
 type bcStorage struct {

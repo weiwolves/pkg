@@ -5,7 +5,7 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/ddl"
 	"golang.org/x/sync/errgroup"
 )
 

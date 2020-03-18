@@ -21,7 +21,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestOFile(t *testing.T) {
@@ -245,14 +245,14 @@ func TestExtractPathType(t *testing.T) {
 			isErr:  false,
 		},
 		{
-			have:   "github.com/corestoreio/pkg/catalog.Product()",
-			wantIP: "github.com/corestoreio/pkg/catalog",
+			have:   "github.com/weiwolves/pkg/catalog.Product()",
+			wantIP: "github.com/weiwolves/pkg/catalog",
 			wantFT: "catalog.Product()",
 			isErr:  false,
 		},
 		{
-			have:   "github.com/corestoreio/pkg/catalog/catattr.NewHandler({{.EntityTypeID}})",
-			wantIP: "github.com/corestoreio/pkg/catalog/catattr",
+			have:   "github.com/weiwolves/pkg/catalog/catattr.NewHandler({{.EntityTypeID}})",
+			wantIP: "github.com/weiwolves/pkg/catalog/catattr",
 			wantFT: "catattr.NewHandler({{.EntityTypeID}})",
 			isErr:  false,
 		},

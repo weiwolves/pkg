@@ -24,8 +24,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/byteconv"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/byteconv"
 )
 
 // ColumnMapper allows a type to load data from database query into its fields

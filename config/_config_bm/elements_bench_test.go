@@ -17,9 +17,9 @@ package config_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgpath"
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/config/cfgpath"
+	"github.com/weiwolves/pkg/config/element"
+	"github.com/weiwolves/pkg/util/cstesting"
 )
 
 const enableGCPauseOutput = false

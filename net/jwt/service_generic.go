@@ -21,10 +21,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/sync/singleflight"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/sync/singleflight"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 )

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/net/url"
+	"github.com/weiwolves/pkg/net/url"
 	"github.com/gomodule/redigo/redis"
 )
 

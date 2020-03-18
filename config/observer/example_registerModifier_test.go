@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
-	"github.com/corestoreio/pkg/config/storage"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/observer"
+	"github.com/weiwolves/pkg/config/storage"
 )
 
 // ExampleRegisterModifier register a custom modifier with the name
@@ -35,7 +35,7 @@ func ExampleRegisterModifier() {
 
 	cfgSrv := config.MustNewService(storage.NewMap("stores/2/payment/serviceX/username", "xyzUser"), config.Options{})
 
-	err := observer.RegisterWithJSON(cfgSrv, bytes.NewBufferString(`{"Collection":[ { 
+	err := observer.RegisterWithJSON(cfgSrv, bytes.NewBufferString(`{"Collection":[ {
 		  "event":"after_get", "route":"payment/serviceX", "type":"modifier",
 		  "condition":{"funcs":["append_test"]}}
 		]}`))

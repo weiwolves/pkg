@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/weiwolves/pkg/util/conv"
 )
 
 // Standard represents a structured version of Claims Section, as

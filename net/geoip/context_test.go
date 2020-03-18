@@ -20,7 +20,7 @@ import (
 
 	"net/http/httptest"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestContextWithError(t *testing.T) {

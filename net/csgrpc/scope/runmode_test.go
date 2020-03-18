@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	grpc_scope "github.com/corestoreio/pkg/net/csgrpc/scope"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/assert"
+	grpc_scope "github.com/weiwolves/pkg/net/csgrpc/scope"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/assert"
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"sync/atomic"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
 	"github.com/corestoreio/log"
 )
 

@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/objcache"
+	"github.com/weiwolves/pkg/storage/objcache"
 )
 
 var _ objcache.Codecer = (*JSONCodec)(nil)

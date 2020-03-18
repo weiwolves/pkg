@@ -18,8 +18,8 @@ import (
 	"net"
 	"testing"
 
-	csnet "github.com/corestoreio/pkg/net"
-	"github.com/corestoreio/pkg/util/assert"
+	csnet "github.com/weiwolves/pkg/net"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestIPRanges_In(t *testing.T) {

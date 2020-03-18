@@ -18,7 +18,7 @@ import (
 	"net/http"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt"
 )
 
 // HTTPHeaderAuthorization identifies the bearer token in this header key

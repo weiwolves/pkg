@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/allegro/bigcache"
-	"github.com/corestoreio/pkg/storage/objcache"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/storage/objcache"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestWithBigCache_Success(t *testing.T) {

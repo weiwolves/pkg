@@ -17,7 +17,7 @@ package catconfig_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/catalog/catconfig"
+	"github.com/weiwolves/pkg/catalog/catconfig"
 )
 
 func TestConfigPriceScope(t *testing.T) {

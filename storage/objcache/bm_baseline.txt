@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/corestoreio/pkg/storage/objcache
+pkg: github.com/weiwolves/pkg/storage/objcache
 Benchmark_BigCache_Country/Gob_1x-4         	   50000	     22321 ns/op	   10551 B/op	     274 allocs/op
 Benchmark_BigCache_Country/Gob_1x-4         	  100000	     22118 ns/op	   10543 B/op	     274 allocs/op
 Benchmark_BigCache_Country/Gob_1x-4         	  100000	     21589 ns/op	   10542 B/op	     274 allocs/op
@@ -122,4 +122,4 @@ Benchmark_Redis_MsgPack/Stores_2x-4         	   10000	    125737 ns/op	    5627 
 Benchmark_Redis_MsgPack/Stores_2x-4         	   10000	    124795 ns/op	    5628 B/op	      85 allocs/op
 Benchmark_Redis_MsgPack/Stores_2x-4         	   10000	    123391 ns/op	    5627 B/op	      85 allocs/op
 PASS
-ok  	github.com/corestoreio/pkg/storage/objcache	249.113s
+ok  	github.com/weiwolves/pkg/storage/objcache	249.113s

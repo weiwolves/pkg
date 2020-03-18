@@ -18,8 +18,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/corestoreio/pkg/i18n"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/i18n"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestGetLanguages(t *testing.T) {

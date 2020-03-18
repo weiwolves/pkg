@@ -15,9 +15,9 @@
 package backendsigned
 
 import (
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/net/signed"
+	"github.com/weiwolves/pkg/config/cfgmodel"
+	"github.com/weiwolves/pkg/config/element"
+	"github.com/weiwolves/pkg/net/signed"
 )
 
 // Configuration just exported for the sake of documentation. See fields for more

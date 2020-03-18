@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/storage/null"
 	segjson "github.com/segmentio/encoding/json"
+	"github.com/weiwolves/pkg/storage/null"
 )
 
 func BenchmarkSQLScanner(b *testing.B) {

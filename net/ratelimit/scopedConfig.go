@@ -17,7 +17,7 @@ package ratelimit
 import (
 	"net/http"
 
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/scope"
 	"github.com/corestoreio/errors"
 	"gopkg.in/throttled/throttled.v2"
 )

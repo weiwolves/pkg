@@ -26,7 +26,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/byteconv"
+	"github.com/weiwolves/pkg/util/byteconv"
 )
 
 // CSVColumnSeparator separates CSV values. Default value.

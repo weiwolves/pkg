@@ -15,8 +15,8 @@
 package backendgeoip
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/net/geoip"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/net/geoip"
 	"github.com/corestoreio/errors"
 )
 

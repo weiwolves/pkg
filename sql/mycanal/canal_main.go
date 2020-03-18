@@ -29,10 +29,10 @@ import (
 
 	"github.com/corestoreio/log"
 	"github.com/corestoreio/log/logw"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/mycanal"
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/mycanal"
+	"github.com/weiwolves/pkg/util/conv"
 	"github.com/jroimartin/gocui"
 )
 

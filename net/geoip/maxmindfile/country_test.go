@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/corestoreio/pkg/net/geoip"
+	"github.com/weiwolves/pkg/net/geoip"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ geoip.Finder = (*mmdb)(nil)

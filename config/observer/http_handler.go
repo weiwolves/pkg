@@ -20,8 +20,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/net/mw"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/net/mw"
 )
 
 // HTTPHandlerOptions can set different behaviour to the

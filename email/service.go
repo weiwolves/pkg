@@ -17,8 +17,8 @@ package email
 import (
 	"sync"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/store/scope"
 	"github.com/go-gomail/gomail" // outdated TODO use new version
 )
 

@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/net/csgrpc"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/net/csgrpc"
 	"github.com/gogo/protobuf/types"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/codes"

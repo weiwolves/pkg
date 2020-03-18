@@ -3,8 +3,8 @@
 package catalogurlrewrite
 
 import (
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/element"
+	"github.com/weiwolves/pkg/config/cfgmodel"
+	"github.com/weiwolves/pkg/config/element"
 )
 
 // Backend will be initialized in the init() function together with ConfigStructure.

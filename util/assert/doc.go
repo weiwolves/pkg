@@ -6,7 +6,7 @@
 // The following is a complete example using assert in a standard test function:
 //    import (
 //      "testing"
-//      "github.com/corestoreio/pkg/util/assert"
+//      "github.com/weiwolves/pkg/util/assert"
 //    )
 //
 //    func TestSomething(t *testing.T) {
@@ -22,7 +22,7 @@
 //
 //    import (
 //      "testing"
-//      "github.com/corestoreio/pkg/util/assert"
+//      "github.com/weiwolves/pkg/util/assert"
 //    )
 //
 //    func TestSomething(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/corestoreio/pkg/store"
-	storemock "github.com/corestoreio/pkg/store/mock"
+	"github.com/weiwolves/pkg/store"
+	storemock "github.com/weiwolves/pkg/store/mock"
 	jsoniter "github.com/json-iterator/go"
 	// jlexer "github.com/mailru/easyjson/jlexer"
 	//"github.com/mailru/easyjson/jwriter"
@@ -579,10 +579,10 @@ var rawJSONData = []byte(`{
 // import (
 // 	"testing"
 //
-// 	"github.com/corestoreio/pkg/config/cfgmock"
-// 	"github.com/corestoreio/pkg/store"
-// 	"github.com/corestoreio/pkg/store/scope"
-// 	"github.com/corestoreio/pkg/store/storemock"
+// 	"github.com/weiwolves/pkg/config/cfgmock"
+// 	"github.com/weiwolves/pkg/store"
+// 	"github.com/weiwolves/pkg/store/scope"
+// 	"github.com/weiwolves/pkg/store/storemock"
 // )
 //
 // // benchmarkStoreService refactor and use a function which generates a huge

@@ -20,11 +20,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/net/runmode"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/store/storemock"
+	"github.com/weiwolves/pkg/config/cfgmock"
+	"github.com/weiwolves/pkg/net/runmode"
+	"github.com/weiwolves/pkg/store"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/store/storemock"
 	"github.com/corestoreio/log"
 )
 

@@ -15,8 +15,8 @@
 package mock
 
 import (
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/store"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/store"
 )
 
 // NewServiceEuroOZ creates a fully initialized store.Service with 3 websites,

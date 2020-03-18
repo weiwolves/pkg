@@ -20,8 +20,8 @@ import (
 	"strings"
 	"unicode"
 
-	csnet "github.com/corestoreio/pkg/net"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	csnet "github.com/weiwolves/pkg/net"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // ForwardedIPHeaders contains a list of available headers which

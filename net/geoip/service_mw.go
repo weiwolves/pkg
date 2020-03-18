@@ -21,7 +21,7 @@ import (
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	loghttp "github.com/corestoreio/log/http"
-	"github.com/corestoreio/pkg/net/request"
+	"github.com/weiwolves/pkg/net/request"
 )
 
 // CountryByIP searches a country by an IP address and returns the found

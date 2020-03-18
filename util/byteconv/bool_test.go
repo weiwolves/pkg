@@ -18,7 +18,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestParseNullBool(t *testing.T) {

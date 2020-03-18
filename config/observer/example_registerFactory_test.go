@@ -22,8 +22,8 @@ import (
 	"fmt"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/observer"
 )
 
 func NewAllowedObserver(data []byte) (config.Observer, error) {
@@ -54,7 +54,7 @@ func ExampleRegisterFactory() {
 
 	cfgSrv := config.MustNewService(nil, config.Options{})
 
-	err := observer.RegisterWithJSON(cfgSrv, bytes.NewBufferString(`{"Collection":[ { 
+	err := observer.RegisterWithJSON(cfgSrv, bytes.NewBufferString(`{"Collection":[ {
 		  "event":"before_set", "route":"aa/gg", "type":"path_allowed",
 		  "condition":{"Paths":["aa/gg/hh","aa/gg/jj"]}}
 		]}`))

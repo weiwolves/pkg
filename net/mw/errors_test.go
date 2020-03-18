@@ -22,8 +22,8 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log/logw"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestErrorWithCode(t *testing.T) {

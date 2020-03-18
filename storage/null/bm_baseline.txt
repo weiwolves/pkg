@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/corestoreio/pkg/storage/null
+pkg: github.com/weiwolves/pkg/storage/null
 BenchmarkSQLScanner/NullInt64-4         	20000000	        65.3 ns/op	      32 B/op	       1 allocs/op
 BenchmarkSQLScanner/NullInt64-4         	20000000	        65.9 ns/op	      32 B/op	       1 allocs/op
 BenchmarkSQLScanner/NullInt64-4         	20000000	        65.4 ns/op	      32 B/op	       1 allocs/op
@@ -97,4 +97,4 @@ BenchmarkMakeDecimalBytes/6789012345678912345678901234.123-4  	10000000	       2
 BenchmarkMakeDecimalBytes/6789012345678912345678901234.123-4  	10000000	       215 ns/op	     112 B/op	       3 allocs/op
 BenchmarkMakeDecimalBytes/6789012345678912345678901234.123-4  	10000000	       214 ns/op	     112 B/op	       3 allocs/op
 PASS
-ok  	github.com/corestoreio/pkg/storage/null	186.204s
+ok  	github.com/weiwolves/pkg/storage/null	186.204s

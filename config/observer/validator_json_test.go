@@ -20,9 +20,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/observer"
+	"github.com/weiwolves/pkg/util/assert"
 	"github.com/mailru/easyjson"
 )
 

@@ -14,7 +14,7 @@
 
 package jwt
 
-import "github.com/corestoreio/pkg/store/scope"
+import "github.com/weiwolves/pkg/store/scope"
 
 // StoreCodeFieldName defines the key in the claim where the store code has been
 // stored. Can be overwritten with the scoped configuration.

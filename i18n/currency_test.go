@@ -21,9 +21,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/corestoreio/pkg/i18n"
+	"github.com/weiwolves/pkg/i18n"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 // all currency formats and the last seen in language

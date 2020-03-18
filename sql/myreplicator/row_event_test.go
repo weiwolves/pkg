@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestDecodeDecimal(t *testing.T) {

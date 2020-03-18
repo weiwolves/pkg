@@ -26,10 +26,10 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/corestoreio/pkg/codegen"
-	"github.com/corestoreio/pkg/codegen/tableToStruct/tpl"
-	"github.com/corestoreio/pkg/storage/dbr"
-	"github.com/corestoreio/pkg/util/slices"
+	"github.com/weiwolves/pkg/codegen"
+	"github.com/weiwolves/pkg/codegen/tableToStruct/tpl"
+	"github.com/weiwolves/pkg/storage/dbr"
+	"github.com/weiwolves/pkg/util/slices"
 )
 
 type generator struct {

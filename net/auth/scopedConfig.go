@@ -19,8 +19,8 @@ import (
 	"sort"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // TriggerFunc defines the condition if the ProviderFunc

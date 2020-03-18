@@ -20,9 +20,9 @@ import (
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	loghttp "github.com/corestoreio/log/http"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/store"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 // WithValidateBaseURL is a middleware which checks if the request base URL is

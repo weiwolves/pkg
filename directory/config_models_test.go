@@ -17,12 +17,12 @@ package directory_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/cfgpath"
-	"github.com/corestoreio/pkg/directory"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/config/cfgmock"
+	"github.com/weiwolves/pkg/config/cfgmodel"
+	"github.com/weiwolves/pkg/config/cfgpath"
+	"github.com/weiwolves/pkg/directory"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestNewConfigCurrencyGetDefault(t *testing.T) {

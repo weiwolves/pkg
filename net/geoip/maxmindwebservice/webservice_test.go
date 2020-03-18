@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/geoip"
-	"github.com/corestoreio/pkg/storage/transcache"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/net/geoip"
+	"github.com/weiwolves/pkg/storage/transcache"
+	"github.com/weiwolves/pkg/util/cstesting"
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ geoip.Finder = (*mmws)(nil)

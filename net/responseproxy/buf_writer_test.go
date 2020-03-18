@@ -20,8 +20,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/corestoreio/pkg/net/responseproxy"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/responseproxy"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestWrapBuffered(t *testing.T) {

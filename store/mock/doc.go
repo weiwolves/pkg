@@ -17,7 +17,7 @@
 // Please import this package as:
 //
 // 	import (
-// 		"github.com/corestoreio/pkg/store/storemock"
+// 		"github.com/weiwolves/pkg/store/storemock"
 // 	)
 //
 // To avoid confusion with other mock packages.

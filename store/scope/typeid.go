@@ -20,7 +20,7 @@ import (
 	"strconv"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // MaxID maximum allowed ID which can be packed into a TypeID. The ID relates to

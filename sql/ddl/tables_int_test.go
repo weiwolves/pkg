@@ -19,8 +19,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestIsCreateStmt(t *testing.T) {

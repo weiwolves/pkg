@@ -17,7 +17,7 @@
 package objcache
 
 import (
-	"github.com/corestoreio/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dml"
 )
 
 func NewDBClient(db dml.QueryExecPreparer) NewStorageFn {

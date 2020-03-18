@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ Codecer = (*JSONCodec)(nil)

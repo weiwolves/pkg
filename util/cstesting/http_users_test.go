@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/cstesting"
 )
 
 func TestHTTPParallelUsers_WrongInterval(t *testing.T) {

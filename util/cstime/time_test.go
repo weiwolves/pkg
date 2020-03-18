@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/cstime"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/cstime"
 )
 
 func TestParseTimeStrict(t *testing.T) {

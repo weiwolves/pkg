@@ -27,7 +27,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestParseNullInt64SQL_ParseIntSQL(t *testing.T) {

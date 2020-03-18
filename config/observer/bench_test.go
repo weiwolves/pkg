@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/observer"
 )
 
 // BenchmarkMinMaxInt64/partial-4         	50000000	        30.6 ns/op	       0 B/op	       0 allocs/op

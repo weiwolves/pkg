@@ -14,6 +14,6 @@
 
 package csjwt
 
-import "github.com/corestoreio/pkg/util/bufferpool"
+import "github.com/weiwolves/pkg/util/bufferpool"
 
 var bufPool = bufferpool.New(8192) // estimated *cough* average size of JWT 8kb

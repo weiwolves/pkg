@@ -12,7 +12,7 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/ddl"
 	"github.com/satori/go.uuid"
 	"github.com/siddontang/go-mysql/client"
 	"github.com/siddontang/go-mysql/mysql"

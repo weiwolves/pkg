@@ -19,12 +19,12 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/store"
-	storemock "github.com/corestoreio/pkg/store/mock"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/sync/bgwork"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/store"
+	storemock "github.com/weiwolves/pkg/store/mock"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/sync/bgwork"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ store.Finder = (*store.Service)(nil)

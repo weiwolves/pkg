@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestDriverCallBack(t *testing.T) {

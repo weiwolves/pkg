@@ -20,7 +20,7 @@ import (
 	"strconv"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 // NotNull* are specifying which type has a non null value

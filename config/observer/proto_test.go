@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	"github.com/alecthomas/repr"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/validation"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/config/observer"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/validation"
 	google_protobuf "github.com/gogo/protobuf/types"
 	"google.golang.org/grpc"
 )

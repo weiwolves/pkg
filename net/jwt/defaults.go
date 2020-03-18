@@ -17,7 +17,7 @@ package jwt
 import (
 	"time"
 
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt"
 )
 
 // DefaultSigningMethod HMAC-SHA signing with 512 bits. Gets applied if the

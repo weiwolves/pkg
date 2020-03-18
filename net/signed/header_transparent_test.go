@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/signed"
-	"github.com/corestoreio/pkg/storage/containable"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/signed"
+	"github.com/weiwolves/pkg/storage/containable"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ signed.Cacher = (*set.InMemory)(nil)

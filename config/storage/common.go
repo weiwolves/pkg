@@ -16,8 +16,8 @@ package storage
 
 import (
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/store/scope"
 )
 
 type cacheKey struct {

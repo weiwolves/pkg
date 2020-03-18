@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/util/csjwt"
 )
 
 func init() {

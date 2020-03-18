@@ -23,9 +23,9 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/bufferpool"
-	"github.com/corestoreio/pkg/util/byteconv"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/util/byteconv"
 	"golang.org/x/sync/errgroup"
 )
 

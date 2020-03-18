@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/util/shortid"
+	"github.com/weiwolves/pkg/util/shortid"
 )
 
 func TestShortid_Generate_oneIdPerYear_over34Years_uniqueOf9Symbols(t *testing.T) {

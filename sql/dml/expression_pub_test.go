@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/sql/dml"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestTableColumnQuote(t *testing.T) {

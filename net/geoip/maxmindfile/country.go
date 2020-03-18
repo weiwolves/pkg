@@ -17,7 +17,7 @@ package maxmindfile
 import (
 	"net"
 
-	"github.com/corestoreio/pkg/net/geoip"
+	"github.com/weiwolves/pkg/net/geoip"
 	"github.com/corestoreio/errors"
 	"github.com/oschwald/geoip2-golang"
 )

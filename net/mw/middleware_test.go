@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 type key uint

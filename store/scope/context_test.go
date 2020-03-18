@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/store/scope"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 func TestFromContext(t *testing.T) {

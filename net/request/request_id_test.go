@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/net/request"
-	"github.com/corestoreio/pkg/sync/bgwork"
-	"github.com/corestoreio/pkg/util/cstesting"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/weiwolves/pkg/net/mw"
+	"github.com/weiwolves/pkg/net/request"
+	"github.com/weiwolves/pkg/sync/bgwork"
+	"github.com/weiwolves/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/util/assert"
 )
 
 var _ mw.Middleware = (&request.ID{}).With() // test if function signature matches

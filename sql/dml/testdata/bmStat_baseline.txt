@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/corestoreio/pkg/sql/dml
+pkg: github.com/weiwolves/pkg/sql/dml
 BenchmarkInterpolate-4                      	 1000000	      1775 ns/op	     160 B/op	       1 allocs/op
 BenchmarkInterpolate-4                      	 1000000	      1775 ns/op	     160 B/op	       1 allocs/op
 BenchmarkInterpolate-4                      	 1000000	      1774 ns/op	     160 B/op	       1 allocs/op
@@ -295,4 +295,4 @@ BenchmarkArgsToIFace/args_numbers-4                              	 2000000	     
 BenchmarkArgsToIFace/args_numbers-4                              	 2000000	       784 ns/op	     688 B/op	      44 allocs/op
 FAIL
 exit status 1
-FAIL	github.com/corestoreio/pkg/sql/dml	622.425s
+FAIL	github.com/weiwolves/pkg/sql/dml	622.425s

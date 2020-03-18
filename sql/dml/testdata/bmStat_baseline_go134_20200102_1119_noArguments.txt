@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/corestoreio/pkg/sql/dml
+pkg: github.com/weiwolves/pkg/sql/dml
 BenchmarkSelect_Rows-4                      	  393554	      2879 ns/op	    5882 B/op	      17 allocs/op
 BenchmarkSelect_Rows-4                      	  412153	      2957 ns/op	    5882 B/op	      17 allocs/op
 BenchmarkSelect_Rows-4                      	  413200	      2867 ns/op	    5882 B/op	      17 allocs/op
@@ -290,4 +290,4 @@ BenchmarkInsert_Prepared/ExecContext-4                     	    3556	    335579 
     benchmark_integration_test.go:215: [dml] Prepare.PrepareContext with query "SELECT `id`, `first_name`, `last_name`, `sex`, `birth_date`, `weight`, `height`, `update_time` FROM `dml_fake_person` WHERE (`id` BETWEEN ? AND ?)": Error 1146: Table 'test.dml_fake_person' doesn't exist
 FAIL
 exit status 1
-FAIL	github.com/corestoreio/pkg/sql/dml	443.080s
+FAIL	github.com/weiwolves/pkg/sql/dml	443.080s

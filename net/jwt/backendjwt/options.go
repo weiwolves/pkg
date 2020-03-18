@@ -15,9 +15,9 @@
 package backendjwt
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/net/jwt"
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/weiwolves/pkg/config"
+	"github.com/weiwolves/pkg/net/jwt"
+	"github.com/weiwolves/pkg/util/csjwt"
 	"github.com/corestoreio/errors"
 )
 

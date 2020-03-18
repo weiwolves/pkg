@@ -4,7 +4,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 // lcFirst transforms the first character of a string to lower case.

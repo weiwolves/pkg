@@ -14,7 +14,7 @@
 
 package custattr
 
-import "github.com/corestoreio/pkg/eav"
+import "github.com/weiwolves/pkg/eav"
 
 // AddressDataPostcode post code data model @todo
 // @see magento2/site/app/code/Magento/Customer/Model/Attribute/Data/Postcode.php

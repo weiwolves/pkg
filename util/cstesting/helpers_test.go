@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/cstesting"
 )
 
 func TestChangeEnv(t *testing.T) {

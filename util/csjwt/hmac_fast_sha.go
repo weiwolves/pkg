@@ -20,7 +20,7 @@ import (
 	"hash"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/hashpool"
+	"github.com/weiwolves/pkg/util/hashpool"
 )
 
 // SigningMethodHSFast implements the HMAC-SHA family of pre-warmed signing

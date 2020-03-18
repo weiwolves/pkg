@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dmlgen"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/codegen"
-	"github.com/corestoreio/pkg/util/strs"
+	"github.com/weiwolves/pkg/sql/ddl"
+	"github.com/weiwolves/pkg/sql/dmlgen"
+	"github.com/weiwolves/pkg/sql/dmltest"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/assert"
+	"github.com/weiwolves/pkg/util/codegen"
+	"github.com/weiwolves/pkg/util/strs"
 )
 
 /*
@@ -95,7 +95,7 @@ func TestNewGenerator_Protobuf_Json(t *testing.T) {
 	// dmltest.SQLDumpLoad(t, "testdata/test_*.sql", nil)
 
 	ctx := context.Background()
-	g, err := dmlgen.NewGenerator("github.com/corestoreio/pkg/sql/dmlgen/dmltestgenerated",
+	g, err := dmlgen.NewGenerator("github.com/weiwolves/pkg/sql/dmlgen/dmltestgenerated",
 
 		dmlgen.WithBuildTags("!ignore", "!ignored"),
 		dmlgen.WithProtobuf(&dmlgen.SerializerConfig{}),
@@ -363,7 +363,7 @@ func TestNewGenerator_NoDB(t *testing.T) {
 	// dmltest.SQLDumpLoad(t, "testdata/test_*.sql", nil)
 
 	ctx := context.Background()
-	ts, err := dmlgen.NewGenerator("github.com/corestoreio/pkg/sql/dmlgen/dmltestgenerated2",
+	ts, err := dmlgen.NewGenerator("github.com/weiwolves/pkg/sql/dmlgen/dmltestgenerated2",
 
 		dmlgen.WithTablesFromDB(ctx, db,
 			"core_configuration", "sales_order_status_state", "view_customer_auto_increment",
@@ -396,7 +396,7 @@ func TestNewGenerator_ReversedForeignKeys(t *testing.T) {
 	// dmltest.SQLDumpLoad(t, "testdata/test_*.sql", nil)
 
 	ctx := context.Background()
-	ts, err := dmlgen.NewGenerator("github.com/corestoreio/pkg/sql/dmlgen/dmltestgenerated3",
+	ts, err := dmlgen.NewGenerator("github.com/weiwolves/pkg/sql/dmlgen/dmltestgenerated3",
 
 		dmlgen.WithTablesFromDB(ctx, db,
 			"store", "store_group", "store_website",
@@ -458,7 +458,7 @@ func TestNewGenerator_MToMForeignKeys(t *testing.T) {
 	// dmltest.SQLDumpLoad(t, "testdata/test_*.sql", nil)
 
 	ctx := context.Background()
-	ts, err := dmlgen.NewGenerator("github.com/corestoreio/pkg/sql/dmlgen/dmltestgeneratedMToM",
+	ts, err := dmlgen.NewGenerator("github.com/weiwolves/pkg/sql/dmlgen/dmltestgeneratedMToM",
 
 		dmlgen.WithTablesFromDB(ctx, db,
 			//"athlete_team_member",
@@ -515,7 +515,7 @@ func TestNewGenerator_DB_Partial_SQL_Queries(t *testing.T) {
 	// dmltest.SQLDumpLoad(t, "testdata/test_*.sql", nil)
 
 	ctx := context.Background()
-	ts, err := dmlgen.NewGenerator("github.com/corestoreio/pkg/sql/dmlgen/dmltestgenerated4",
+	ts, err := dmlgen.NewGenerator("github.com/weiwolves/pkg/sql/dmlgen/dmltestgenerated4",
 
 		dmlgen.WithTablesFromDB(ctx, db,
 			"core_configuration", "sales_order_status_state", "view_customer_auto_increment",

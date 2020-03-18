@@ -26,8 +26,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/weiwolves/pkg/storage/null"
+	"github.com/weiwolves/pkg/util/bufferpool"
 )
 
 const (
