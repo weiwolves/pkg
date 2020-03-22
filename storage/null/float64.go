@@ -44,6 +44,16 @@ func MakeFloat64(f float64) Float64 {
 	}
 }
 
+// MakeFloat64Ptr creates a new Float64. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Float64
+// implements interface Argument.
+func MakeFloat64Ptr(f float64) *Float64 {
+	return &Float64{
+		Float64: f,
+		Valid:   true,
+	}
+}
+
 // MakeFloat64FromByte makes a new Float64 from a (text) byte slice.
 func MakeFloat64FromByte(data []byte) (nv Float64, err error) {
 	nv.Float64, nv.Valid, err = byteconv.ParseFloat(data)

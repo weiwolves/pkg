@@ -46,6 +46,16 @@ func MakeUint16(i uint16) Uint16 {
 	}
 }
 
+// MakeUint16Ptr creates a new Uint16. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Uint16
+// implements interface Argument.
+func MakeUint16Ptr(i uint16) *Uint16 {
+	return &Uint16{
+		Uint16: i,
+		Valid:  true,
+	}
+}
+
 // MakeUint16FromByte makes a new Uint16 from a (text) byte slice.
 func MakeUint16FromByte(data []byte) (nv Uint16, err error) {
 	var i64 uint64

@@ -46,6 +46,16 @@ func MakeUint32(i uint32) Uint32 {
 	}
 }
 
+// MakeUint32Ptr creates a new Uint32. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Uint32
+// implements interface Argument.
+func MakeUint32Ptr(i uint32) *Uint32 {
+	return &Uint32{
+		Uint32: i,
+		Valid:  true,
+	}
+}
+
 // MakeUint32FromByte makes a new Uint32 from a (text) byte slice.
 func MakeUint32FromByte(data []byte) (nv Uint32, err error) {
 	var i64 uint64

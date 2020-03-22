@@ -46,6 +46,16 @@ func MakeInt16(i int16) Int16 {
 	}
 }
 
+// MakeInt16Ptr creates a new Int16. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Int16
+// implements interface Argument.
+func MakeInt16Ptr(i int16) *Int16 {
+	return &Int16{
+		Int16: i,
+		Valid: true,
+	}
+}
+
 // MakeInt16FromByte makes a new Int16 from a (text) byte slice.
 func MakeInt16FromByte(data []byte) (nv Int16, err error) {
 	var i64 int64

@@ -46,6 +46,16 @@ func MakeUint64(i uint64) Uint64 {
 	}
 }
 
+// MakeUint64Ptr creates a new Uint64. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Uint64
+// implements interface Argument.
+func MakeUint64Ptr(i uint64) *Uint64 {
+	return &Uint64{
+		Uint64: i,
+		Valid:  true,
+	}
+}
+
 // MakeUint64FromByte makes a new Uint64 from a (text) byte slice.
 func MakeUint64FromByte(data []byte) (nv Uint64, err error) {
 	nv.Uint64, nv.Valid, err = byteconv.ParseUint(data, 10, 64)

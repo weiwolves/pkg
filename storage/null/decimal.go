@@ -77,6 +77,21 @@ func MakeDecimalInt64(value int64, scale int32) Decimal {
 	}
 }
 
+// MakeDecimalInt64Ptr converts an int64 with the scale to a Decimal.
+func MakeDecimalInt64Ptr(value int64, scale int32) *Decimal {
+	neg := false
+	if value < 0 {
+		neg = true
+		value *= -1
+	}
+	return &Decimal{
+		Precision: uint64(value),
+		Scale:     scale,
+		Negative:  neg,
+		Valid:     true,
+	}
+}
+
 // MakeDecimalFloat64 converts a float64 to Decimal.
 //
 // Example:
@@ -151,6 +166,15 @@ func MustMakeDecimalBytes(data []byte) Decimal {
 		panic(err)
 	}
 	return d
+}
+
+// MustMakeDecimalBytesPtr same behaviour as MakeDecimalBytes but panics on error.
+func MustMakeDecimalBytesPtr(data []byte) *Decimal {
+	d, err := MakeDecimalBytes(data)
+	if err != nil {
+		panic(err)
+	}
+	return &d
 }
 
 func isZero(r rune) bool {

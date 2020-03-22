@@ -44,6 +44,15 @@ func MakeInt32(i int32) Int32 {
 	}
 }
 
+// MakeInt32Ptr creates a new Int32. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Int32
+// implements interface Argument.
+func MakeInt32Ptr(i int32) *Int32 {
+	return &Int32{
+		NullInt32: sql.NullInt32{Int32: i, Valid: true},
+	}
+}
+
 // MakeInt32FromByte makes a new Int32 from a (text) byte slice.
 func MakeInt32FromByte(data []byte) (nv Int32, err error) {
 	var i64 int64

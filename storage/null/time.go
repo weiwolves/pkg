@@ -36,6 +36,15 @@ func MakeTime(t time.Time) Time {
 	}
 }
 
+// MakeTimePtr creates a new Time. Setting the second optional argument to
+// false, the string will not be valid anymore, hence NULL. Time implements
+// interface Argument.
+func MakeTimePtr(t time.Time) *Time {
+	return &Time{
+		NullTime: sql.NullTime{Time: t, Valid: true},
+	}
+}
+
 // String returns the string representation of the time or null.
 func (a Time) String() string {
 	if !a.Valid {

@@ -46,6 +46,16 @@ func MakeUint8(i uint8) Uint8 {
 	}
 }
 
+// MakeUint8Ptr creates a new Uint8. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Uint8
+// implements interface Argument.
+func MakeUint8Ptr(i uint8) *Uint8 {
+	return &Uint8{
+		Uint8: i,
+		Valid: true,
+	}
+}
+
 // MakeUint8FromByte makes a new Uint8 from a (text) byte slice.
 func MakeUint8FromByte(data []byte) (nv Uint8, err error) {
 	var i64 uint64

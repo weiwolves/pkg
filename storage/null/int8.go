@@ -46,6 +46,16 @@ func MakeInt8(i int8) Int8 {
 	}
 }
 
+// MakeInt8Ptr creates a new Int8. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. Int8
+// implements interface Argument.
+func MakeInt8Ptr(i int8) *Int8 {
+	return &Int8{
+		Int8:  i,
+		Valid: true,
+	}
+}
+
 // MakeInt8FromByte makes a new Int8 from a (text) byte slice.
 func MakeInt8FromByte(data []byte) (nv Int8, err error) {
 	var i64 int64

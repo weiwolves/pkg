@@ -43,6 +43,14 @@ func MakeBool(b bool) Bool {
 	}
 }
 
+// MakeBoolPtr creates a new Bool pointer. Implements interface Argument.
+func MakeBoolPtr(b bool) *Bool {
+	return &Bool{
+		Bool:  b,
+		Valid: true,
+	}
+}
+
 // MakeBoolFromByte makes a new Bool from a (text) byte slice.
 func MakeBoolFromByte(data []byte) (nv Bool, err error) {
 	nv.Bool, nv.Valid, err = byteconv.ParseBool(data)

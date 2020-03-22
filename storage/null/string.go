@@ -48,6 +48,16 @@ func MakeString(s string) String {
 	}
 }
 
+// MakeStringPtr creates a new String. Setting the second optional argument
+// to false, the string will not be valid anymore, hence NULL. String
+// implements interface Argument.
+func MakeStringPtr(s string) *String {
+	return &String{
+		Data:  s,
+		Valid: true,
+	}
+}
+
 // Scan implements the Scanner interface. Approx. >2x times faster than
 // database/sql.convertAssign.
 func (a *String) Scan(value interface{}) (err error) {
